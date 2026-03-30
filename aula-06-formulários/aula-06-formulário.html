@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulário de Cadastro</h1>
+    </header>
+    <main>
+      <section>
+        <!-- Formulário de cadastro -->
+        <form action="" method="post">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome</label><br />
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Insira seu nome"
+              required
+            /><br />
+            <label for="email" id="email">Email</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@gmail.com"
+              required
+            /><br />
+            <label for="senha">Senha</label><br />
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              placeholder="Password"
+              required
+            /><br />
+            <label for="nascimento" id="nascimento">Data de Nascimento</label
+            ><br />
+            <input type="date" name="nascimento" id="nascimento" /><br />
+            <label for="sexo">Sexo</label><br />
+            <input type="radio" name="sexo" id="mas" value="m" />Masculino
+            <input type="radio" name="sexo" id="fem" value="f" />Feminino"
+          </fieldset><br><br>
+          <fieldset>
+            <legend>Dados do Produto</legend>
+            <label for="quantidade">Quantidade</label><br />
+            <input
+              type="number"
+              name="quantidade"
+              id="quantidade"
+              min="1"
+              max="10"
+            /><br />
+            <label for="cor">Cor</label><br />
+            <input type="color" name="cor" id="cor" /><br />
+            <label for="entrega">Agendar sua entrega para data</label><br />
+
+            <input type="datetime-local" /><br />
+            <label for="frete">Selecione o frete</label><br>
+            <select name="frete" id="frete">
+              <option value="pac">PAC</option>
+              <option value="sedex">Sedex</option>
+              <option value="sedex10">Sedex 10</option>
+            </select>
+            <label for="observacoes">Observações</label><br>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
