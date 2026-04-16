@@ -1,0 +1,65 @@
+body{
+    background-color: aliceblue;
+    padding: 0px 20px;
+}
+
+h1{
+    color: #2e6ab4;
+    font-weight: bold;
+}
+
+#habilidades{
+    color: #7289A6;
+}
+
+.listah{
+    border: 2px #7289A6 solid;
+    border-radius: 2px;
+    width: 100px;
+    height: 70px;
+    padding: 25px 60px;
+}
+
+ul li{
+    color: black;
+}
+
+.habilidade{
+    border: 2px solid #7289A6;
+    border-radius: 2px;
+    padding:  10px 20px;
+    transition: all 0.3 ease;
+}
+
+.habilidade:hover{
+    background-color: #97bae5;
+    transform: scale(0.97);
+}
+
+h4{
+    color: #004dab;
+}
+
+h4::before{
+    padding: 10px;
+    content: "\2750";
+}
+
+.p{
+    font-family: Arial;
+}
+
+footer{
+    background-color: rgb(209, 220, 231);
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#p + a {
+    padding: 20px;
+    color: #7289A6;
+    text-decoration: none;
+    font-weight: bold;
+}
